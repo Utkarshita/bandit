@@ -8,9 +8,12 @@ The password for the next level is stored in a file called readme located in the
 
 #### Commands used
 ```bash
-ls 
-```
-```bash
+ls
+# Lists files in the current directory.
 cat readme
+# Displays the contents of the 'readme' file.
 ```
+
 <img width="687" height="180" alt="image" src="https://github.com/user-attachments/assets/4d68496d-14b9-4fa1-9dc8-2b5b243707f1" />
+
+- Password got : ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
