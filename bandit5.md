@@ -10,12 +10,15 @@ The password for the next level is stored in a file somewhere under the inhere d
 
 #### Commands used
 ```bash
+ls
 cd inhere
 find . -size 1033c
+# Searches for files exactly 1033 bytes in size within the current directory and subdirectories.
 cd maybehere07
 ls
 cat .file2
-
+# Files starting with a dot are hidden by default.
 ```
 
 <img width="1197" height="471" alt="image" src="https://github.com/user-attachments/assets/6c0e7e90-ff41-49cf-b0de-f498965e6204" />
+- Password got : HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
