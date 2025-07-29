@@ -10,7 +10,11 @@ The password for the next level is stored in a hidden file in the inhere directo
 ls
 cd inhere
 ls -al
+# Lists all files, including hidden ones, with detailed info
 cat ...Hiding-From-You
+# Displays the content of the file named '...Hiding-From-You'.
 ```
 
 <img width="1044" height="468" alt="image" src="https://github.com/user-attachments/assets/46661065-6771-4e01-a371-8266fc6e2cb2" />
+
+- Password got : 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
