@@ -8,7 +8,10 @@ The password for the next level is stored in the file data.txt and is the only l
 #### Commands used
 ```bash
 ls
-cat data.txt | uniq -u
+sort data.txt | uniq -u
+# Sorts the lines in 'data.txt' to group duplicates together, then 'uniq -u' filters out only the lines that appear exactly once.
 ```
 
 <img width="675" height="179" alt="image" src="https://github.com/user-attachments/assets/9637ee60-1275-4a9f-b035-e663c370b6a0" />
+
+- Password got : 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
