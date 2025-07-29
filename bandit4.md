@@ -13,4 +13,5 @@ find . -type f | xargs file
 cat ./-file07
 ```
 
-<img width="1191" height="541" alt="image" src="https://github.com/user-attachments/assets/2005b65a-c805-41c9-a370-97ccc5967903" />
+<img width="1163" height="524" alt="image" src="https://github.com/user-attachments/assets/fb6e9699-c9c1-4c25-bb35-64b5a7d3c73e" />
+
