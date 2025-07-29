@@ -15,4 +15,4 @@ cat ./-
 ```
 <img width="367" height="82" alt="image" src="https://github.com/user-attachments/assets/dedd16c2-ede3-4840-9953-62411b37eb3f" />
 
-- password got : 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+- Password got : 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
