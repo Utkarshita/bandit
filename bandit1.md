@@ -7,10 +7,12 @@ The password for the next level is stored in a file called - located in the home
 
 #### Commands used
 ```bash
-ls 
-```
-```bash
+ls
+# Lists files and directories in the current directory.
 cat ./-
+# Displays the contents of a file literally named '-'.
+# './' is used to clarify that '-' is a filename, not an option.
 ```
 <img width="367" height="82" alt="image" src="https://github.com/user-attachments/assets/dedd16c2-ede3-4840-9953-62411b37eb3f" />
 
+- password got : 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
