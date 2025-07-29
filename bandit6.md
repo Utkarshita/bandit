@@ -11,9 +11,11 @@ The password for the next level is stored somewhere on the server and has all of
 #### Commands used
 ```bash
 find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+# '2>/dev/null' hides permission-denied error messages for cleaner output.
 cd /var/lib/dpkg/info/
 cat bandit7.password
 ```
 
 <img width="1182" height="240" alt="image" src="https://github.com/user-attachments/assets/60cd422c-2278-40fa-9565-459eae9688ca" />
+- Password got : morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
