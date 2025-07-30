@@ -14,8 +14,4 @@ openssl s_client -connect localhost:30001
 ```
 
 <img width="729" height="405" alt="image" src="https://github.com/user-attachments/assets/c15e6996-1aa1-4b5f-bbd8-6106e7915fbe" />
-<img width="746" height="355" alt="image" src="https://github.com/user-attachments/assets/88c2b941-a5ae-4b92-bec0-bc26ff8d0938" />
-
-
-
-
+<img width="746" height="306" alt="image" src="https://github.com/user-attachments/assets/024e48db-38bc-44cc-a694-2d97053ec9d7" />
