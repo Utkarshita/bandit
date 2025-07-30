@@ -3,7 +3,9 @@
 ## Level Goal
 The password for the next level is stored in a file called - located in the home directory
 
+```bash
 - ssh bandit1@bandit.labs.overthewire.org -p 2220
+```
 
 #### Commands used
 ```bash
@@ -13,6 +15,7 @@ cat ./-
 # Displays the contents of a file literally named '-'.
 # './' is used to clarify that '-' is a filename, not an option.
 ```
-<img width="367" height="82" alt="image" src="https://github.com/user-attachments/assets/dedd16c2-ede3-4840-9953-62411b37eb3f" />
 
-- Password got : 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+<img width="367" height="68" alt="image" src="https://github.com/user-attachments/assets/63c25322-df1c-454f-a677-fcebadfdc014" />
+
+
