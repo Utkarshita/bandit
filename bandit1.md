@@ -4,7 +4,7 @@
 The password for the next level is stored in a file called - located in the home directory
 
 ```bash
-- ssh bandit1@bandit.labs.overthewire.org -p 2220
+ssh bandit1@bandit.labs.overthewire.org -p 2220
 ```
 
 #### Commands used
