@@ -5,8 +5,10 @@ The password for the next level is stored in a file somewhere under the inhere d
 - human-readable
 - 1033 bytes in size
 - not executable
----
-- ssh bandit5@bandit.labs.overthewire.org -p 2220
+
+```bash
+ssh bandit5@bandit.labs.overthewire.org -p 2220
+```
 
 #### Commands used
 ```bash
@@ -20,5 +22,4 @@ cat .file2
 # Files starting with a dot are hidden by default.
 ```
 
-<img width="1197" height="471" alt="image" src="https://github.com/user-attachments/assets/6c0e7e90-ff41-49cf-b0de-f498965e6204" />
-- Password got : HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+<img width="1197" height="436" alt="image" src="https://github.com/user-attachments/assets/c4aea498-648f-4648-8b5f-e71dbf663f8b" />
