@@ -3,7 +3,9 @@
 ## Level Goal
 The password for the next level is stored in a hidden file in the inhere directory.
 
-- ssh bandit3@bandit.labs.overthewire.org -p 2220
+```bash
+ssh bandit3@bandit.labs.overthewire.org -p 2220
+```
 
 #### Commands used
 ```bash
@@ -15,6 +17,4 @@ cat ...Hiding-From-You
 # Displays the content of the file named '...Hiding-From-You'.
 ```
 
-<img width="1044" height="468" alt="image" src="https://github.com/user-attachments/assets/46661065-6771-4e01-a371-8266fc6e2cb2" />
-
-- Password got : 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+<img width="1044" height="394" alt="image" src="https://github.com/user-attachments/assets/b2e41df7-f6aa-4486-b9ce-50139bd3b715" />
