@@ -5,8 +5,10 @@ The password for the next level is stored somewhere on the server and has all of
 - owned by user bandit7
 - owned by group bandit6
 - 33 bytes in size
----
-- ssh bandit6@bandit.labs.overthewire.org -p 2220
+
+```bash
+ssh bandit6@bandit.labs.overthewire.org -p 2220
+```
 
 #### Commands used
 ```bash
@@ -16,6 +18,4 @@ cd /var/lib/dpkg/info/
 cat bandit7.password
 ```
 
-<img width="1182" height="240" alt="image" src="https://github.com/user-attachments/assets/60cd422c-2278-40fa-9565-459eae9688ca" />
-- Password got : morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
-
+<img width="1250" height="173" alt="image" src="https://github.com/user-attachments/assets/581bd5da-26f5-4f91-91f1-71d78f41a0cc" />
