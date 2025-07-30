@@ -8,14 +8,14 @@ ssh bandit20@bandit.labs.overthewire.org -p 2220
 
 #### Commands used
 ```bash
-ls
-ls -l
-./bandit20-do
-# Running without arguments shows usage instructions (acts as a helper tool).
-./bandit20-do id
-./bandit20-do cat /etc/bandit_pass/bandit20
-
+ls (terminal 1)
+./suconnect (terminal 1)
+Nc -lvp 12345 (terminal 2)
+# This starts a netcat server listening on port 12345.
+./suconnect 12345 (terminal 1)
+# This runs the binary and tells it to connect to port 12345.
+# password of current level (terminal 2)
 ```
 
-<img width="714" height="140" alt="image" src="https://github.com/user-attachments/assets/b3d61db5-a085-4088-8692-cd270f7e2ac8" />
-
+<img width="629" height="191" alt="image" src="https://github.com/user-attachments/assets/9b7e4d52-39b1-4fe6-9521-07c4eaeb4948" />
+<img width="353" height="127" alt="image" src="https://github.com/user-attachments/assets/7903a204-eda9-40ae-acb9-f168c8e6a54b" />
