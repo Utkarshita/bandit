@@ -1,21 +1,21 @@
-# Bandit Level 15 → Level 16
+# Bandit Level 18 → Level 19
 
 ## Level Goal
-The password for the next level can be retrieved by submitting the password of the current level to port 30001 on localhost using SSL/TLS encryption.
+The password for the next level is stored in a file readme in the homedirectory. Unfortunately, someone has modified .bashrc to log you out when you log in with SSH.
 
 ```bash
-ssh bandit15@bandit.labs.overthewire.org -p 2220
+ssh bandit18@bandit.labs.overthewire.org -p 2220
 ```
 
 #### Commands used
 ```bash
-openssl s_client -connect localhost:30001
-# Initiates a secure (SSL/TLS) connection to port 30001 on localhost using OpenSSL
+cat /etc/shells
+# Lists available valid shells on the system. Useful to find alternative shells like /bin/sh or /bin/bash.
+ssh bandit18@bandit.labs.overthewire.org -p 2220 -t /bin/sh
+# -t forces pseudo-terminal allocation.
+# /bin/sh is specified as the shell to bypass restricted login shell.
+ls
+cat readme
 ```
 
-<img width="729" height="405" alt="image" src="https://github.com/user-attachments/assets/c15e6996-1aa1-4b5f-bbd8-6106e7915fbe" />
-<img width="746" height="355" alt="image" src="https://github.com/user-attachments/assets/88c2b941-a5ae-4b92-bec0-bc26ff8d0938" />
-
-
-
-
+<img width="660" height="633" alt="image" src="https://github.com/user-attachments/assets/5bd72eec-6696-45e1-94c8-ce29ce6e21a3" />
