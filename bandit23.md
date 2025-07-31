@@ -20,4 +20,3 @@ cat /tmp/8ca319486bfbbc3663ea0fbe81326349
 
 ```
 
-<img width="755" height="480" alt="image" src="https://github.com/user-attachments/assets/4e1cb85c-bfe2-4281-b61a-d14e11ad51c5" />
